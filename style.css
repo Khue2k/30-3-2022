@@ -1,0 +1,60 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+ 
+footer {
+    padding: 1em;
+    
+    background-color: white;
+    clear: left;
+    text-align: center;
+}
+ 
+nav {
+    float: left;
+    width: 150px;
+    margin: 0;
+    padding: 1em;
+    height: 1000px;
+    background-color: black;
+    
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10%;
+    margin-top: auto;
+    
+}
+    
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: antiquewhite;
+    transition: 1.5s;
+}
+.brand img{
+    height: 200px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+.description{
+    background-color: azure;
+    height: 200px;
+    width: max-content;
+    margin-right: 10px;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+
+
+}
